@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form name="frmContact" action="06_Result.html" method="get">
+        <input type="text" placeholder="Name" 
+        required oninput="this.setCustomValidity('')" 
+        oninvalid="this.setCustomValidity('Please enter your name!')"/><br/>
+
+        <input type="text" placeholder="Email" 
+        required pattern="[a-z0-9._%+-]+@[a-z09.-]+\.[a-z{2,3}$" 
+        oninput="this.setCustomValidity('')" 
+        oninvalid="this.setCustomValidity('Please enter your email!')"/><br/>
+        
+        <input type="submit" value="Send" />
+    </form>    
+    
+</body>
+</html>
