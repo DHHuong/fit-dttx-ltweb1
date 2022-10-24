@@ -1,0 +1,45 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.loginbox {
+    background: #FBFCFD; 
+    padding: 10px; width: 490px; 
+    margin: 4% auto 0 auto; 
+    position: relative; 
+   }
+    
+.loginboxinner {
+    background: #FBFCFD; 
+    padding: 5px; position: relative; 
+    border: 1px solid #FBFCFD;
+    -moz-box-shadow: inset 0 1px 0 #FBFCFD; 
+    -webkit-box-shadow: inset 0 1px 0 #FBFCFD; 
+    box-shadow: inset 0 1px 0 #FBFCFD;
+}
+.loginheader { height: 20px; }
+.loginform { margin: 4px auto; text-align:center; }
+.title { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    color:#098809; line-height:28px; 
+    font-weight:normal; 
+    text-align:center; 
+    font-size:16px; 
+  }
+  .fbbutton { 
+    border:1px solid #059c44; 
+    width:94px; 
+    background-image:-webkit-linear-gradient(top, #637BAD, #4F67A4); 
+    font-size:14px; 
+    line-height:25px; 
+    font-weight:normal; 
+    color:#fff; 
+  }
